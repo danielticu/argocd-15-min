@@ -19,7 +19,7 @@ spec:
           host: devops-toolkit.192.168.49.2.xip.io
       version: v3
   destination:
-    namespace: prodiction
+    namespace: production
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:

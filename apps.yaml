@@ -9,10 +9,10 @@ spec:
   project: default
   source:
     path: helm
-    repoURL: https://github.com/vfaric/argocd-15-min.git
+    repoURL: https://github.com/danielticu/argocd-15-min.git
     targetRevision: HEAD
   destination:
-    namespace: prodiction
+    namespace: production
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:
